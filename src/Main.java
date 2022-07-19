@@ -5,5 +5,4 @@ public class Main {
 
     SalesManager salesManager = new SalesManager(array);
     //
-
 }
