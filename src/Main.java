@@ -1,9 +1,15 @@
 package src;
 
 public class Main {
-    int[] array = new int[]{1, 2, 3, 4};
+    public static void main(String[] args) {
+        int[] array = new int[]{1, 2, 3, 4};
 
-    int max = new SalesManager(array).max();
+        int mean = new SalesManager(array).mean();
+
+        System.out.println(mean);
+
+    }
+
 
 
 
